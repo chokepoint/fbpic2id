@@ -8,6 +8,7 @@ If the owner shows up as "Facebook," then privacy settings don't allow the conte
 For better results, implement logging into Facebook.
 
 Example (random google image result):
+
 ./fbpic2id.py https://sphotos-b-ord.xx.fbcdn.net/hphotos-frc1/p480x480/1044981_547409191984903_1858736086_n.jpg
 
 Album URL: http://www.facebook.com/photo.php?fbid=547409191984903
@@ -16,6 +17,7 @@ Owner (Page/Group): Best photos of the world
 Owner URL: https://www.facebook.com/Best.Fotos.Of.The.World
 
 Tagged with profiles:
+
 Vikas Gaikwad (https://www.facebook.com/vikas.gaikwad.1612)
 Lakhan Bhanuse (https://www.facebook.com/lakhan.bhanuse)
 Kiran Ghoble (https://www.facebook.com/kiran.ghoble)
@@ -54,6 +56,7 @@ Mary Smith White (https://www.facebook.com/mary.s.white.79)
 Kỉ Hà Băng (https://www.facebook.com/tathi.thuan)
 
 Tagged without profiles:
+
 Prashant Rammtake
 Lawrence Luggionskky
 Maria C. Lanza
