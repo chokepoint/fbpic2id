@@ -28,6 +28,9 @@ def main(argv):
 	# if the title isn't "Timeline Photos | Facebook" it must be a user
 	divTag = soup.findAll('title')
 	if divTag[0].text != "Timeline Photos | Facebook": 
+		if divTag[0].text.split('&')[0] == "Facebook":
+			print "Can't find owner due to privacy settings"
+			exit(1)
 		print "Owner: " + divTag[0].text.split('&')[0] 
 	else:
 		divTag = soup.findAll('a')
