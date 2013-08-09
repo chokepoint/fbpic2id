@@ -11,6 +11,10 @@ from BeautifulSoup import BeautifulSoup
 import requests
 
 def main(argv):
+	if len(argv) != 1:
+		print "Usage: ./fbpic2id.py <Facebook Image URL>"
+		exit(1)
+	
 	pic_url = argv[0]
 	album_url = "http://www.facebook.com/photo.php?fbid=" + pic_url.split('_')[1]
 	headers = {'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.1; nl; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13'}
